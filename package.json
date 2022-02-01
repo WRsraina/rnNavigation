@@ -7,10 +7,12 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "pod": "npx pod-install ios"
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.7",
+    "@react-navigation/native-stack": "^6.3.0",
     "react": "17.0.2",
     "react-native": "0.67.2",
     "react-native-safe-area-context": "^3.3.2",
